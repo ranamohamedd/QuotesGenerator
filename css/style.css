@@ -1,0 +1,35 @@
+:root{
+    --main-font:'Cormorant Garamond', serif;
+    --main-color:#E75480;
+}
+
+#home{
+    background-image: url(../imgs/bg4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#home .container .content h1{
+    font-family: var(--main-font);
+    font-size: 6rem;
+    font-weight: 900;
+    color: white;
+
+}
+#home .container .content h2{
+    color: white;
+}
+#home .container .content p{
+    color: white;
+}
+#home .container .content button{
+    width: 14rem;
+    height: 6rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
